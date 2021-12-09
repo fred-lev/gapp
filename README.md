@@ -2,7 +2,7 @@
 
 Sample go web server.
 
-The focus here is on containerizing an application not on the application itself.
+The focus here is on containerizing an application and pushing the resulting image to docker hub using GitHub Actions.
 
 The content of this repo is derived from the following guides and repos:
 
