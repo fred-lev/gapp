@@ -37,7 +37,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - uses: evantorrie/mott-the-tidier@v1-beta
+      - name: tidy mod needed because of dependabot
+        uses: evantorrie/mott-the-tidier@v1-beta
         with:
           gomods: |
             **/go.mod
