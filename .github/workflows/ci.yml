@@ -4,9 +4,12 @@ name: Run CI
 
 on: # yamllint disable-line rule:truthy
   push:
-    branches: [main]
+    branches:
+      - main
     paths-ignore:
-      - "**.md"
+      - .github/**
+      - .gitignore
+      - README.md
   workflow_dispatch:
 
 jobs:
