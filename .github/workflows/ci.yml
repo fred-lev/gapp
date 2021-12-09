@@ -5,6 +5,8 @@ name: Run CI
 on: # yamllint disable-line rule:truthy
   push:
     branches: [main]
+    paths-ignore:
+      - "**.md"
   workflow_dispatch:
 
 jobs:
