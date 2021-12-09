@@ -28,3 +28,9 @@ Test the access using curl:
 ```console
 curl -v http://localhost:8080/
 ```
+
+Test the status endpoint using curl:
+
+```console
+curl -v http://localhost:8080/ping
+```
