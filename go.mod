@@ -1,6 +1,6 @@
 module github.com/fred-lev/gapp
 
-go 1.17.4
+go 1.17
 
 require (
 	github.com/containerd/continuity v0.1.0 // indirect
