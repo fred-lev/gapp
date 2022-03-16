@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/labstack/echo/v4 v4.6.3
 	github.com/ory/dockertest/v3 v3.8.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 )
 
 require (
