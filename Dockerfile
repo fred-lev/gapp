@@ -3,7 +3,7 @@
 ##
 ## Build
 ##
-FROM golang:1.18.4-buster AS build
+FROM golang:1.18.5-buster AS build
 
 WORKDIR /app
 
